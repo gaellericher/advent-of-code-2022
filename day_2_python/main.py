@@ -31,7 +31,7 @@ def score_round_2(theirs, outcome):
     if outcome == "X":
         return (score_shape(theirs) - 2) % 3 + 1
     elif outcome == "Y":
-        return score_shape(theirs) + 3 
+        return score_shape(theirs) + 3
     else:  # Z
         return score_shape(theirs) % 3 + 1 + 6
 
@@ -57,6 +57,6 @@ if __name__ == '__main__':
 
     with open(join(dirname(__file__), "input"), "r") as f:
         rounds = [tuple(line.split()) for line in f.readlines()]
-        print(f"Total score (1st part): {total_score(rounds, score_round_1)}, "
+        print(f"[Day 2] Total score (1st part): {total_score(rounds, score_round_1)}, "
               f"Total score (2st part): {total_score(rounds, score_round_2)}"
               )

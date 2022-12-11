@@ -43,6 +43,6 @@ if __name__ == '__main__':
         redundant_item_priorities = sum(redundant_item_priorities(rucksacks))
         group_item_priorities = sum(group_item_priorities(rucksacks))
         print(
-            f"Sum of priorities (1st part): {redundant_item_priorities}, "
+            f"[Day 3] Sum of priorities (1st part): {redundant_item_priorities}, "
             f"Sum of priorities (2nd part): {group_item_priorities}"
         )

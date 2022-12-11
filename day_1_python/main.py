@@ -28,5 +28,5 @@ if __name__ == '__main__':
 
     with open(join(dirname(__file__), "input"), "r") as f:
         bags = make_bags(f.readlines())
-        print(f"Heaviest bag: {heavier_bag_weight(bags)}, "
-              f"top 3: {heavier_bags_weight(bags, 3)}")
+        print(f"[Day 1] Heaviest bag (1st part): {heavier_bag_weight(bags)}, "
+              f"top 3 (2nd part): {heavier_bags_weight(bags, 3)}")
