@@ -14,6 +14,9 @@ if [ "$#" -ne 1 ]; then
     check_input "4" && python day_4/main.py
     check_input "5" && python day_5/main.py
     check_input "6" && python day_6/main.py
+    check_input "7" && python day_7/main.py
+    check_input "8" && python day_8/main.py
+
 else
     check_input $1 && python day_$1/main.py
 fi
