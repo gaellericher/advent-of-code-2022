@@ -1,13 +1,14 @@
 https://adventofcode.com/2022/
 
-Original goal: use different and new languages
-Actual achievement: fall back to Python.
+Original goal: use different languages and take the opportunity to learn new ones.
 
-## Required
-Place input files at the same level as Python script files
+Actual achievement: just use Python and try to catch up the days.
+
+## Inputs
+Place input files at the same level as the Python script files.
 
 ## Run
-Run all days with:
+Run all the problems with:
 ```cmd
 ./run.sh
 ```
